@@ -8,7 +8,7 @@ This repository contains a modular monolith demonstration application for managi
 - Manages the catalog of available books.
 - Handles book information, categories, and related operations.
 
-### 2. Management Module (Short Name: `Management`)
+### 2. Administration Module (Short Name: `Admin`)
 - Provides administrative functionalities.
 - Allows users with administrative roles to manage books, permissions, and meeting group proposals.
 
