@@ -4,7 +4,7 @@ This repository contains a modular monolith demonstration application for managi
 
 ## Modules
 
-### 1. Books Module (Short Name: `Books`)
+### 1. Catalog  Module (Short Name: `Catalog `)
 - Manages the catalog of available books.
 - Handles book information, categories, and related operations.
 
