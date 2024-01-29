@@ -1,20 +1,20 @@
 # Modular Monolith Book Library Demo
 
-This repository contains a modular monolith demonstration application for managing a book library system. The application is divided into three modules: Catalog, Administration, and Inventory. Each module represents a distinct business domain and communicates through events.
+This repository contains a modular monolith demonstration application for managing a book library system. The application is divided into three modules: Books, Management, and Users. Each module represents a distinct business domain and communicates through events.
 
 ## Modules
 
-### 1. Catalog Module
+### 1. Books Module (Short Name: `Books`)
 - Manages the catalog of available books.
 - Handles book information, categories, and related operations.
 
-### 2. Administration Module
+### 2. Management Module (Short Name: `Management`)
 - Provides administrative functionalities.
-- Allows users with administrative roles to manage users, permissions, and meeting group proposals.
+- Allows users with administrative roles to manage books, permissions, and meeting group proposals.
 
-### 3. Inventory Module
-- Manages the inventory of available books.
-- Handles book quantities, restocking, and related inventory operations.
+### 3. Users Module (Short Name: `Users`)
+- Manages user-related operations.
+- Handles user information, roles, and related user management tasks.
 
 ## Technologies Used
 - .NET Core
@@ -32,7 +32,7 @@ This repository contains a modular monolith demonstration application for managi
 
 ### Running the Application
 1. Clone the repository.
-2. Navigate to each module directory (Catalog, Administration, Inventory) and run `dotnet run` to start each module.
+2. Navigate to each module directory (Books, Management, Users) and run `dotnet run` to start each module.
 3. Explore the provided API endpoints for each module.
 
 ## Contributing
