@@ -14,7 +14,7 @@ namespace Base.Core
             IDomainEventsDispatcher domainEventsDispatcher)
         {
             this._context = context;
-            this._domainEventsDispatcher = domainEventsDispatcher;
+            this._domainEventsDispatcher = (DomainEventsDispatcher?)domainEventsDispatcher;
         }
 
         public async Task<int> CommitAsync(
